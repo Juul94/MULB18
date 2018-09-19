@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:850px;
+	margin:20px auto;
+	padding:25px;
+}
+
+header {
+	width:100%;
+}
+
+section {
+	margin-top:35px;
+}
+
+footer {
+	margin-top:150px;
+}
+
+/***** ID *****/
+
+#figcaption_style {
+	max-width:300px;
+}
+
+/***** TABLE *****/
+
+table {
+	border:1px solid black;
+	margin-top:20px;
+	border-collapse: collapse;
+	width:800px;
+	font-family: OpenSerif;
+}
+
+th {
+	font-size:100%;
+	border:1px solid black;
+	margin-top:20px;
+}
+
+td {
+	padding:15px;
+	border:1px solid black;
+}
+
+.th-main {
+	padding:10px;
+}
+
+td.strong {
+	font-weight:bold;
+	font-size:100%;
+}
+
+.padding-top {
+	padding-top:15px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.link {
+	font-size:100%;
+	padding:10px;
+	font-weight:normal;
+	text-align:left;
+}
+
+
+
+
