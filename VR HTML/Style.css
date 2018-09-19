@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+/***** BASIC CONTENT *****/
+
+body {
+	font-famliy: "Calibri";
+	color:#333;
+}
+
+
+#wrapper {
+	width:850px;
+	margin:50px auto;
+	padding:25px;
+}
+
+header {
+	width:100%;
+}
+
+main {
+	margin-top:35px;
+}
+
+footer {
+	margin-top:150px;
+}
+
+/***** TEXT *****/
+
+h1 {
+	font-size:250%;
+	padding-bottom:20px;
+}
+
+h2 {
+	font-size:150%;
+}
+
+h3 {
+	font-size:125%;
+	padding-bottom:30px;
+}
+
+h4 {
+	font-size:115%;
+}
+
+p {
+	font-size:100%;
+	padding-top:25px;
+}
+
+a {
+	color:black;
+}
+
+a:hover {
+	color:#4CAF50;
+}
+
+/***** MENU/LIST *****/
+
+ul {
+	width:100%;
+}
+
+ul li {
+	list-style: none;
+	float:left;
+	padding-left:12.5px;
+}
+
+ul li#home {
+	padding:0 !important;
+}
+
+
+ol {
+	width:100%;
+	height:50px;
+}
+
+ol li {
+	list-style:none;
+	padding-top:15px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/***** CLASSES *****/
+
+.Artikler {
+	margin-top:35px;
+}
+
+.Artikler_first {
+	margin-top:0 !important;
+}
+
+.first {
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.extrapadding {
+	padding-top:20px !important;
+}
+
+/***** ID *****/
+
+#figcaption_style {
+	max-width:300px;
+}
+
+/***** OTHER *****/
+
+hr {
+	margin:50px 0 50px;
+}
+
+
+
