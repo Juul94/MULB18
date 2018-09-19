@@ -51,6 +51,12 @@ td {
 	border:1px solid black;
 }
 
+td {
+	width:150px;
+	text-align:left;
+	vertical-align:top;
+}
+
 .th-main {
 	padding:10px;
 }
